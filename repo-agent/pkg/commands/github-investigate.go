@@ -96,7 +96,7 @@ func (c *GithubInvestigateCommand) InitDefaults() {
 	}
 
 	if c.Model == "" {
-		c.Model = "gemini-3.1-pro-preview"
+		c.Model = "gemini-3.1-pro"
 	}
 
 	if c.PullRequestID == 0 {
